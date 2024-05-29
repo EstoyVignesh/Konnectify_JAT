@@ -11,6 +11,9 @@
 		
 		<class name="konnectify.tests.Signup_Test1"/>
 		<class name="konnectify.tests.Signup_Test2"/>
+		
+		<class name="konnectify.tests.LoginTest1"/>
+		<class name="konnectify.tests.LoginTest2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

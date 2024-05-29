@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 import konnectify.utils.SeWrappers;
 
-public class LoginPage1 extends SeWrappers {
+public class LoginPage2 extends SeWrappers {
 	
 	@FindBy(name="email")
 	public WebElement mail;
@@ -36,6 +36,15 @@ public class LoginPage1 extends SeWrappers {
 	{
 		waitForElement(but2,20);
 		clickElement(but2);
+		String konnectify = null;
+		if(but2.getText()==konnectify)
+		{
+			System.out.println("Konnectify home page is not displayed");
+		}
+		else
+		{
+			System.out.println("Konnectify home page is displayed");
+		}
 		
 	}
 	

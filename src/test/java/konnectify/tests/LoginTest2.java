@@ -9,7 +9,7 @@ import konnectify.utils.SeWrappers;
 
 
 
-public class LoginTest1 extends SeWrappers
+public class LoginTest2 extends SeWrappers
 {
 	Kwrapper k = new Kwrapper();
 	Reports report = new Reports();
@@ -20,10 +20,10 @@ public class LoginTest1 extends SeWrappers
 	public void LoginTest(String browserName, String url)
 	{
 		try {
-			report.setTCDesc("Validating the Login Page with Incorrect Data");
+			report.setTCDesc("Validating the Login Page with Correct Data");
 			launchCrossBrowser(browserName,url);
 			
-			k.Login1("124vky#@gmail.com","@vickyKofy12345");	
+			k.Login2("vignesh000vky@gmail.com","@vickyKofy123");	
 	      }
 		
 	

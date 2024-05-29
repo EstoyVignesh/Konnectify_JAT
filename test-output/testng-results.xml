@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-29T13:05:14 IST" name="Suite" finished-at="2024-05-29T13:05:36 IST" duration-ms="22173">
+  <suite started-at="2024-05-29T14:42:36 IST" name="Suite" finished-at="2024-05-29T14:43:25 IST" duration-ms="48989">
     <groups>
     </groups>
-    <test started-at="2024-05-29T13:05:14 IST" name="chromeTest" finished-at="2024-05-29T13:05:36 IST" duration-ms="22173">
+    <test started-at="2024-05-29T14:42:36 IST" name="chromeTest" finished-at="2024-05-29T14:43:25 IST" duration-ms="48989">
       <class name="konnectify.utils.Reports">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:konnectify.utils.Reports@4c12331b]" started-at="2024-05-29T13:05:14 IST" name="startReport" finished-at="2024-05-29T13:05:14 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:konnectify.utils.Reports@1573f9fc]" started-at="2024-05-29T14:42:35 IST" name="startReport" finished-at="2024-05-29T14:42:36 IST" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:konnectify.utils.Reports@4c12331b]" started-at="2024-05-29T13:05:36 IST" name="endReport" finished-at="2024-05-29T13:05:36 IST" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:konnectify.utils.Reports@1573f9fc]" started-at="2024-05-29T14:43:25 IST" name="endReport" finished-at="2024-05-29T14:43:25 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- konnectify.utils.Reports -->
+      <class name="konnectify.tests.LoginTest1">
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:konnectify.tests.LoginTest1@5bda8e08]" started-at="2024-05-29T14:43:02 IST" name="LoginTest" finished-at="2024-05-29T14:43:13 IST" duration-ms="10164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://chitti2.konnectify.io/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- konnectify.tests.LoginTest1 -->
       <class name="konnectify.tests.Signup_Test2">
-        <test-method signature="signupTest(java.lang.String,java.lang.String)[pri:0, instance:konnectify.tests.Signup_Test2@3eb25e1a]" started-at="2024-05-29T13:05:26 IST" name="signupTest" finished-at="2024-05-29T13:05:36 IST" duration-ms="9898" status="PASS">
+        <test-method signature="signupTest(java.lang.String,java.lang.String)[pri:0, instance:konnectify.tests.Signup_Test2@3eb738bb]" started-at="2024-05-29T14:42:51 IST" name="signupTest" finished-at="2024-05-29T14:43:02 IST" duration-ms="11857" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +53,7 @@
         </test-method> <!-- signupTest -->
       </class> <!-- konnectify.tests.Signup_Test2 -->
       <class name="konnectify.tests.Signup_Test1">
-        <test-method signature="signupTest(java.lang.String,java.lang.String)[pri:0, instance:konnectify.tests.Signup_Test1@6743e411]" started-at="2024-05-29T13:05:14 IST" name="signupTest" finished-at="2024-05-29T13:05:26 IST" duration-ms="12230" status="PASS">
+        <test-method signature="signupTest(java.lang.String,java.lang.String)[pri:0, instance:konnectify.tests.Signup_Test1@233795b6]" started-at="2024-05-29T14:42:36 IST" name="signupTest" finished-at="2024-05-29T14:42:51 IST" duration-ms="14752" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,6 +70,24 @@
           </reporter-output>
         </test-method> <!-- signupTest -->
       </class> <!-- konnectify.tests.Signup_Test1 -->
+      <class name="konnectify.tests.LoginTest2">
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:0, instance:konnectify.tests.LoginTest2@1e800aaa]" started-at="2024-05-29T14:43:13 IST" name="LoginTest" finished-at="2024-05-29T14:43:25 IST" duration-ms="12157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://chitti2.konnectify.io/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- konnectify.tests.LoginTest2 -->
     </test> <!-- chromeTest -->
   </suite> <!-- Suite -->
 </testng-results>
